@@ -74,7 +74,7 @@ weather-info-app/
 
 ## 📸 Screenshots
 
-> _You can add your app screenshots here later if needed_
+> [_You can add your app screenshots here later if needed_](https://github.com/saketkumarskd/Weather-Info-App/blob/2abb9ca60282692627f52ef25762ea04565a490e/Dashboard.png)
 
 ---
 
