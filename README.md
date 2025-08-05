@@ -4,8 +4,6 @@
 ### 🔖 Submitted as part of the **GUVI HCL Internship Program**  
 **🧑‍💻 Submitted by:** Saket Kumar  
 **📅 Year:** 2025  
-**🏢 Organization:** GUVI (an IIT-M & IIM-A incubated company)  
-
 ---
 
 ## 📌 Summary
@@ -74,8 +72,9 @@ weather-info-app/
 
 ## 📸 Screenshots
 
-> (https://github.com/saketkumarskd/Weather-Info-App/blob/2abb9ca60282692627f52ef25762ea04565a490e/Dashboard.png)
+> https://github.com/saketkumarskd/Weather-Info-App/blob/2abb9ca60282692627f52ef25762ea04565a490e/Dashboard.png
 > https://github.com/saketkumarskd/Weather-Info-App/blob/21baf8e210c1cbcdde815abfb36c2056d2cc0fc9/Dashboard1.png
+> https://github.com/saketkumarskd/Weather-Info-App/blob/b6eee6802e045fef917a87d52ad85cbe40d83198/Dashboard2.png
 
 ---
 
