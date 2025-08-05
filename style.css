@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.main-wrapper {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.left-side {
+  background: linear-gradient(to bottom, #00c6ff, #0072ff);
+  color: white;
+  padding: 40px 30px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left-side h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.left-side p {
+  margin: 10px 0 0;
+  font-size: 16px;
+}
+
+.weather-container {
+  padding: 40px 30px;
+  width: 60%;
+  text-align: center;
+}
+
+.weather-container h1 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.weather-container h3 {
+  margin-top: 0;
+  color: #666;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 25px;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
+  z-index: 1;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.3);
+}
+
+button.clicked {
+  animation: glow 1s ease forwards;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #00f2fe, 0 0 10px #00f2fe;
+  }
+  50% {
+    box-shadow: 0 0 20px #00f2fe, 0 0 30px #00c6ff;
+  }
+  100% {
+    box-shadow: 0 0 8px #00f2fe, 0 0 15px #00c6ff;
+  }
+}
+
+.weather-result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.weather-result img {
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+@media (max-width: 700px) {
+  .main-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-side,
+  .weather-container {
+    width: 100%;
+  }
+
+  .left-side {
+    align-items: center;
+    text-align: center;
+  }
+}
